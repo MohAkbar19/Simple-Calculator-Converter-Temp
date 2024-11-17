@@ -46,6 +46,7 @@ func (f Fahrenheit) toKelvin () float64 {
 	return  (f.suhu + 459.67) * (5.0 / 9.0)
 }
 
+
 func main () {
  fmt.Println("Pilih Suhu Awal :")
  fmt.Println("1.Celcius")
