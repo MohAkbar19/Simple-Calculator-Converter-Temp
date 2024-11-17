@@ -8,7 +8,6 @@ type hitungSuhu interface {
 	toKelvin() float64
 	toFahrenheit() float64
 }
-
 type Fahrenheit struct {
 	suhu float64
 }
